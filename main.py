@@ -6,6 +6,11 @@ import typing
 import requests
 import io
 
+from keep_alive import keep_alive
+keep_alive()
+
+
+
 # --- Bot Setup ---
 intents = discord.Intents.default()
 # Crucial Intents: members/presences are required to check the owner's status!
@@ -271,7 +276,11 @@ async def pat(interaction: discord.Interaction, member: discord.Member):
     
     await interaction.response.send_message(message)
 
+
 # ------------------------------------------------
 
 
-bot.run("MTQzNTI4MjYxNDQ5OTE0Nzg0Ng.GzzvGX.NutVyOGhaDdJnLWe4SLaV_ExM51m-K_x-6Te3Q")
+bot.run("")
+
+
+

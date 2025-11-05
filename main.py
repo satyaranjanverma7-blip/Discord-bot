@@ -280,7 +280,8 @@ async def pat(interaction: discord.Interaction, member: discord.Member):
 # ------------------------------------------------
 
 
-bot.run("")
+bot.run("MTQzNTI4MjYxNDQ5OTE0Nzg0Ng.Gt_zuQ.K48QUOw4OwEHz6ulHZw355ABr2M0quTOinHRDc")
+
 
 
 
